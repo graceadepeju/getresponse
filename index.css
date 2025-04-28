@@ -46,8 +46,8 @@ body{
     
 }
 .log-in:hover{
-    color: blue;
-    border: 2px solid blue;
+    color: #00baff;
+    border: 2px solid #00a2ff;
     cursor: pointer;
 }
 .sign-up{
@@ -110,18 +110,9 @@ body{
     transition: 0.2s ease-in-out;
 }
 .all-text{
-    /* width: 100%;
-    align-content: center;
-    justify-items: center; */
     text-align: center;
 }
 @media(max-width:600px){
-    /* .second-text{
-        font-size: 45px;
-    }
-    /* .third-text{
-        font-size: small;
-    } */
     .log-in{
         display: none;
     }
@@ -171,6 +162,10 @@ body{
     font-weight: bold;
     padding: 0 10px 0 10px;
  }   
+ .m-signup:hover{
+    background-color: transparent;
+    color: #00a2ff;
+ }
 .second-text{
     font-size: 25px;
 }
