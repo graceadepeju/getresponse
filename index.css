@@ -18,6 +18,10 @@ nav{
    justify-content: space-between;
    margin-bottom: 55px;
 }
+.m-nav{
+    display: none;
+}
+
 .left-side button:hover{
     color: blue;
 }
@@ -112,7 +116,7 @@ body{
     text-align: center;
 }
 @media(max-width:600px){
-    .second-text{
+    /* .second-text{
         font-size: 45px;
     }
     /* .third-text{
@@ -123,5 +127,56 @@ body{
     }
     .left-side button{
         display: none;
+    } */
+    body{
+        margin: 5px;
     }
+    nav{
+        display: none;
+    }
+.m-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    font-family: rubik;
 }
+.m-left img{
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+}
+.dash{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    margin: o 10px 4px 0;
+}
+.dash img{
+    width: 25px;
+    height: 30px;
+}
+.m-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .m-signup{
+    height: 30px;
+    border-radius: 15px;
+    background-color: #00baff;
+    color: white;
+    border: 2px solid #00a2ff;
+    font-family: rubik;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+ }   
+.second-text{
+    font-size: 25px;
+}
+.third-text{
+    font-size: 12px;
+    margin: 0 40px 0 40px;
+}
+}
+
