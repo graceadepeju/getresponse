@@ -49,18 +49,18 @@ body{
 .sign-up{
     height: 40px;
     border-radius: 15px;
-    border: blue;
+    border:2px solid #00a2ff;
     color: white;
-    background-color: rgba(112, 112, 241,0.753);
+    background-color: #00baff;
     font-family: rubik;
     font-weight: bold;
     padding: 0 10px 0 10px;
 }
 .sign-up:hover{
     cursor: pointer;
-    border:2px solid rgba(112, 112, 241,0.753);
+    border:2px solid #00baff;
     background-color:white;
-    color: rgba(112, 112, 241,0.753);
+    color: #00baff;
 }
 .first-text{
     font-family: roboto;
@@ -100,8 +100,8 @@ body{
 }
 .start-button:hover{
     cursor: pointer;
-    border:2px solid rgba(112, 112, 241,0.753);
-    background-color:rgba(112, 112, 241,0.753);
+    border:3px solid #00a2ff;
+    background-color:#00baff;
     color:white;
     transition: 0.2s ease-in-out;
 }
